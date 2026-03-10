@@ -2,7 +2,7 @@
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2019b%2B-blue.svg)](https://www.mathworks.com/products/matlab.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![IEEE Access](https://img.shields.io/badge/Paper-IEEE%20Access-orange.svg)](https://doi.org/10.1109/ACCESS.XXXXXXX)
+[![IEEE Access](https://img.shields.io/badge/Paper-IEEE%20Access-orange.svg)](https://doi.org/10.1109/ACCESS.2019.2948384)
 
 ---
 
@@ -11,8 +11,8 @@
 This repository contains the full MATLAB simulation code accompanying the paper:
 
 > **"Physical Layer Security of UAV-Assisted Cooperative Communication with SWIPT and Cooperative Jamming"**  
-> *Published in IEEE Access*, 2024  
-> DOI: [10.1109/ACCESS.XXXXXXX](https://doi.org/10.1109/ACCESS.XXXXXXX)
+> *Published in IEEE Access*, 2019  
+> DOI: [10.1109/ACCESS.2019.2948384](https://doi.org/10.1109/ACCESS.2019.2948384)
 
 The paper investigates the **secrecy performance** of a UAV (Unmanned Aerial Vehicle) relay network that simultaneously supports **energy harvesting** and **information decoding** via a Power Splitting (PS) receiver, while using Bob as a **cooperative jammer** to confuse eavesdroppers.
 
@@ -22,13 +22,6 @@ The paper investigates the **secrecy performance** of a UAV (Unmanned Aerial Veh
 
 ### System Model
 
-```
-Alice (A) ──[Rician A2G]──► UAV Relay (U) ──[Rician A2G]──► Bob (B)
-                                │                               │
-                                └──────────[Rician A2G]──────► Eve (E)
-Alice ──[Rayleigh G2G]──────────────────────────────────────► Eve (E)
-Bob  ──[Rayleigh G2G]───────────────────────────────────────► Eve (E)
-```
 
 - **Alice (A):** Source node (ground), transmits information with power `λP`.
 - **UAV Relay (U):** Flying relay, uses a **Power Splitting Receiver (PSR)** with ratio `β`:
@@ -246,26 +239,16 @@ $$\lambda^* = \frac{-WY + \sqrt{WY(VY + WX)}}{(X-Y)W + VY}$$
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{authorname2024uav,
-  author  = {[Author Name(s)]},
-  title   = {Physical Layer Security of UAV-Assisted Cooperative Communication
-             with SWIPT and Cooperative Jamming},
-  journal = {IEEE Access},
-  year    = {2024},
-  volume  = {XX},
-  pages   = {XXXXX--XXXXX},
-  doi     = {10.1109/ACCESS.XXXXXXX}
+@article{mamaghani2019performance,
+  title={On the performance of low-altitude UAV-enabled secure AF relaying with cooperative jamming and SWIPT},
+  author={Tatar Mamaghani, Milad and Hong, Yi},
+  journal={IEEE access},
+  volume={7},
+  pages={153060--153073},
+  year={2019},
 }
 ```
 
----
-
-## 📬 Contact
-
-For questions regarding the code or the paper, please open a [GitHub Issue](../../issues) or contact the authors at:
-
-- **Email:** [author@institution.edu]
-- **Institution:** [University / Research Lab]
 
 ---
 
@@ -273,8 +256,3 @@ For questions regarding the code or the paper, please open a [GitHub Issue](../.
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
----
-
-## 🙏 Acknowledgments
-
-This work was supported by [Funding Agency / Grant Number]. The authors thank the associate editor and reviewers for their constructive feedback.
