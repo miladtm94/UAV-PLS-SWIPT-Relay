@@ -1,0 +1,52 @@
+# MATLAB-specific ignores
+*.asv             # Auto-save files
+*.m~              # Backup files
+*.mlx.bak         # Live script backup
+*.mex*            # Compiled MEX files
+slprj/            # Simulink project files
+sccprj/
+codegen/
+
+# Generated output files (regenerate by running scripts)
+data/processed/*.mat
+results/figures/*.fig
+results/figures/*.png
+results/figures/*.eps
+results/figures/*.pdf
+
+# MATLAB session files
+matlab.prf
+finish.m
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+diary.txt
+
+# Temporary / scratch files
+tmp/
+scratch/
+test_output/
+
+# Large binary files (MAT files >10MB should not be in git)
+# Uncomment the line below if you want to exclude ALL .mat files:
+# *.mat
+
+# Toolbox / dependency lock files (if using MATLAB Package Manager)
+*.prj
