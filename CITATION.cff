@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software in your research, please cite it using the
+  metadata below, or refer to the published paper in IEEE Access.
+
+title: >-
+  Simulation Code for: On the Performance of Low-Altitude UAV-Enabled
+  Secure AF Relaying with Cooperative Jamming and SWIPT
+
+authors:
+  - family-names: Tatar Mamaghani
+    given-names: Milad
+    orcid: "https://orcid.org/0000-0002-0000-0000"  # replace with actual ORCID if available
+  - family-names: Hong
+    given-names: Yi
+
+version: "1.0.0"
+date-released: "2019-01-01"
+license: MIT
+repository-code: "https://github.com/<your-username>/UAV-PLS-SWIPT-Relay"  # update before publishing
+url: "https://doi.org/10.1109/ACCESS.2019.2948384"
+
+abstract: >-
+  MATLAB simulation code accompanying the IEEE Access paper on physical layer
+  security of a low-altitude UAV-enabled cooperative relay system with
+  simultaneous wireless information and power transfer (SWIPT) and cooperative
+  jamming. The code reproduces the closed-form analytical expressions and
+  Monte Carlo simulations for connection probability, intercept probability,
+  ergodic secrecy rate, and secrecy outage probability.
+
+keywords:
+  - UAV relay
+  - physical layer security
+  - SWIPT
+  - cooperative jamming
+  - Rician fading
+  - secrecy rate
+  - power splitting
+  - decode-and-forward
+  - MATLAB simulation
+
+preferred-citation:
+  type: article
+  title: >-
+    On the Performance of Low-Altitude UAV-Enabled Secure AF Relaying
+    with Cooperative Jamming and SWIPT
+  authors:
+    - family-names: Tatar Mamaghani
+      given-names: Milad
+    - family-names: Hong
+      given-names: Yi
+  journal: "IEEE Access"
+  volume: 7
+  start: 153060
+  end: 153073
+  year: 2019
+  doi: "10.1109/ACCESS.2019.2948384"
+  issn: "2169-3536"
